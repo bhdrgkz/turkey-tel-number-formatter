@@ -10,3 +10,7 @@ function ttnf(telNumber) {
   var newFormat = "0 (" + output[0]+output[1]+output[2] + ") " + output[3]+output[4]+output[5] + " " + output[6]+output[7] + " " + output[8]+output[9];
   return newFormat;
 }
+module.exports = function (str) {
+  'use strict';
+  return ttnf(str);
+};
