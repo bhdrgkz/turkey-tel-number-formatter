@@ -8,7 +8,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "jslint *.js && istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
