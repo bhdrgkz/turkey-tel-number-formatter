@@ -1,0 +1,45 @@
+{
+  "name": "turkey-tel-number-formatter",
+  "version": "1.0.0",
+  "description": "Turkey Tel Number Formatter",
+  "main": "turkey-tel-number-formatter.js",
+  "files": [
+    "turkey-tel-number-formatter.js",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "jslint *.js && istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail"
+  },
+  "standard": {
+    "ignore": [
+      "coverage/**",
+      "node_modules/**",
+      "bower_components/**"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhdrgkz/turkey-tel-number-formatter.git"
+  },
+  "keywords": [
+    "cases",
+    "turkey",
+    "tel number formatter",
+    "telephone",
+    "tel",
+    "phone number",
+    "number",
+    "turkish",
+    "string"
+  ],
+  "author": {
+    "name": "Bahadır Gököz",
+    "email": "bahadir.gokoz@gmail.com",
+    "url": ""
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhdrgkz/turkey-tel-number-formatter/issues"
+  },
+  "homepage": "https://github.com/bhdrgkz/turkey-tel-number-formatter"
+}
