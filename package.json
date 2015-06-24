@@ -1,6 +1,6 @@
 {
   "name": "turkey-tel-number-formatter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Turkey Tel Number Formatter",
   "main": "turkey-tel-number-formatter.js",
   "files": [
