@@ -1,16 +1,19 @@
 function ttnf(telNumber) {
+
   "use strict";
   telNumber = telNumber.replace(/\D/g,'');
   telNumber = telNumber.slice(-10);
+
   var output = [],
   newFormat,
   sNumber = telNumber.toString();
   for (var i = 0, len = sNumber.length; i < len; i += 1) {
-      output.push(+sNumber.charAt(i));
+      output.push(sNumber.charAt(i));
   }
   newFormat = "0 (" + output[0]+output[1]+output[2] + ") " + output[3]+output[4]+output[5] + " " + output[6]+output[7] + " " + output[8]+output[9];
-  if(newFormat.length < 17) {
-    newFormat = "";
+
+  if(!telNumber) {
+    newFormat = '';
   }
   return newFormat;
 }
