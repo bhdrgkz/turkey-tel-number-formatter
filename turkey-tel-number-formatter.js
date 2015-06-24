@@ -1,9 +1,9 @@
 function ttnf(telNumber) {
   "use strict";
-  var newFormat;
   telNumber = telNumber.replace(/\D/g,'');
   telNumber = telNumber.slice(-10);
-  output = [],
+  var output = [],
+  newFormat,
   sNumber = telNumber.toString();
   for (var i = 0, len = sNumber.length; i < len; i += 1) {
       output.push(+sNumber.charAt(i));
